@@ -1,1 +1,3 @@
-This is a starter template for [Learn Next.js](https://nextjs.org/learn).
+# Real World Testing with Cypress Blog
+
+A Next.js Blog for the Real World Testing with Cypress Curriculum.
