@@ -26,7 +26,7 @@ describe("Cypress is just JavaScript", () => {
     });
   });
 
-  it.only("formats the post date correctly on the homepage", () => {
+  it("formats the post date correctly on the homepage", () => {
     // Use _.each() from lodash to iterate over the posts inside of response.body
     // while also getting the post dates on the homepage to make sure that the
     // dates displayed on the homepage are formatted correctly.
