@@ -1,12 +1,4 @@
-/*
-  All of these tests are failing and it is your job to debug them
-  to find out why.
-*/
 describe("Important Cypress Methods", () => {
-  beforeEach(() => {
-    // cy.visit("http://localhost:3000");
-  });
-
   it("uses cy.request() and cy.invoke() to slice the posts array", () => {
     // Use cy.request() to get all of the posts from the /api/posts endpoint
     // Then use cy.invoke() to 'slice' the response body by 1.
