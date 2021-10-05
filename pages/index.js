@@ -20,7 +20,7 @@ export default function Home({ allPostsData }) {
               </Link>
               <br />
               <small className={utilStyles.lightText}>
-                <Date dateString={date} />
+                <Date dateString={date} index={index} />
               </small>
             </li>
           ))}
