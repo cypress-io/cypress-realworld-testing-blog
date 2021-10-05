@@ -5,6 +5,10 @@ import Link from "next/link";
 import Date from "../components/date";
 
 export default function Home({ allPostsData }) {
+  fetch("http://localhost:3000/api/posts")
+    .then((response) => response.json())
+    .then((data) => data);
+
   return (
     <Layout home>
       <Head>
@@ -25,11 +29,6 @@ export default function Home({ allPostsData }) {
           ))}
         </ul>
       </section>
-      {console.log(
-        fetch("http://localhost:3000/api/posts")
-          .then((response) => response.json())
-          .then((data) => console.log(data))
-      )}
     </Layout>
   );
 }
