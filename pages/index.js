@@ -12,11 +12,11 @@ export default function Home({ allPostsData }) {
         <title>{siteTitle}</title>
       </Head>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-        <ul className={utilStyles.list}>
-          {allPostsData.map(({ id, date, title }) => (
+        <ul className={utilStyles.list} data-test="posts-list">
+          {allPostsData.map(({ id, date, title }, index) => (
             <li className={utilStyles.listItem} key={id}>
               <Link href={`/posts/${id}`}>
-                <a>{title}</a>
+                <a data-test={`post-link-${index}`}>{title}</a>
               </Link>
               <br />
               <small className={utilStyles.lightText}>
