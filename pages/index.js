@@ -6,6 +6,10 @@ import Link from "next/link";
 import Date from "../components/date";
 
 export default function Home({ allPostsData }) {
+  fetch("http://localhost:3000/api/posts")
+    .then((response) => response.json())
+    .then((data) => data);
+
   return (
     <Layout home>
       <Head>

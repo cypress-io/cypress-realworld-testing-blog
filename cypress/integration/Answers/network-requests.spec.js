@@ -10,7 +10,7 @@ describe("Network Requests", () => {
       delete req.headers["if-none-match"];
     }).as("posts");
 
-    cy.visit("http://localhost:3000/network");
+    cy.visit("http://localhost:3000");
   });
 
   it("/api/posts returns a status code of 200", () => {
