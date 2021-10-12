@@ -2,7 +2,7 @@ describe("Important Cypress Methods", () => {
   it("uses cy.request() and cy.invoke() to slice the posts array", () => {
     // Use cy.request() to get all of the posts from the /api/posts endpoint
     // Then use cy.invoke() to 'slice' the response body by 1.
-    // Hint: you will need to use cy.wrap() around the reponse.body before calling .invoke()
+    // Hint: you will need to use cy.wrap() around the response.body before calling .invoke()
     // https://docs.cypress.io/api/commands/wrap
 
     cy.request("GET", "http://localhost:3000/api/posts").then((response) => {

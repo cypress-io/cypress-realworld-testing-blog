@@ -22,7 +22,7 @@ describe("Cypress is just JavaScript", () => {
     });
   });
 
-  it.only("formats the post date correctly on the homepage", () => {
+  it("formats the post date correctly on the homepage", () => {
     // Use _.each() from lodash to iterate over the posts inside of response.body
     // while also getting the post dates on the homepage to make sure that the
     // dates displayed on the homepage are formatted correctly.
@@ -31,7 +31,7 @@ describe("Cypress is just JavaScript", () => {
     // Hint: We are included format and parseISO from the 'date-fns' library.
     // You will need to use both of these methods to format the dates coming
     // from the API into the correct format. If you get stuck, the formatting string,
-    // can be found inside of /componets/date.js
+    // can be found inside of /components/date.js
 
     cy.visit("http://localhost:3000");
 
