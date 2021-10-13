@@ -1,6 +1,9 @@
 /*
   It is very helpful to use console.log() to log out the response data
   in order to see the data you are working with.
+  
+  You can also click on the request in the Cypress Command Log for an even
+  better experience.
 */
 describe("Network Requests", () => {
   beforeEach(() => {
