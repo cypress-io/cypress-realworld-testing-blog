@@ -17,7 +17,7 @@ yarn dev
 While the dev server is running, in a separate terminal window, run the following command to launch Cypress.
 
 ```bash
-cypress:open
+yarn cypress:open
 ```
 
 ## Pratice Tests & Answers
