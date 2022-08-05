@@ -23,7 +23,7 @@
   "devDependencies": {
     "@tailwindcss/typography": "^0.4.1",
     "autoprefixer": "^10.3.3",
-    "cypress": "^10.3.1",
+    "cypress": "^10.4.0",
     "postcss": "^8.3.6",
     "tailwindcss": "^2.2.9"
   }
