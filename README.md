@@ -22,9 +22,9 @@ yarn cypress:open
 
 ## Pratice Tests & Answers
 
-The practice tests are located in `cypress/integration/Practice`
+The practice tests are located in `cypress/e2e/Practice`
 
-The answers are located in `cypress/integration/Answers`
+The answers are located in `cypress/e2e/Answers`
 
 ---
 
